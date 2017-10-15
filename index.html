@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beatz by London Lavish</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta charset="UTF-8">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script src="vendors/jquery.easings.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css"/>
+
+
+
+	<script type="text/javascript">
+
+
+	
+
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+				css3: true,
+				scrollingSpeed: 700,
+				navigation: true,
+				fadingEffect: true,
+				navigationPosition: 'left',
+				controlArrows: true,
+				anchors:['firstPage','secondPage','thirdPage','fourthPage'],
+				lockAnchors: true,
+				menu: '#menu',
+				slidesNavPosition: 'bottom',
+				fixedElements: '#header, .footer',
+				navigationTooltips: ['Welcome', 'About Me','My Work','Booking'],
+				showActiveTooltip: true,
+
+			});
+		});
+
+	</script>
+
+	<!--<style type="text/css">
+		.bulb {
+			color: yellow;
+			
+		}
+
+		body {
+			font-family: Amatic SC, cursive;
+		}
+	</style>-->
+	
+</head>
+
+<body>
+
+	<div id="fullpage">
+		<div class="section" id="animated">
+			<ul class="nav fixed-top justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link active" href="#" id="home"><i class="fa fa-home" aria-hidden="true"></i><div class="home text">Home</div></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" id="blub"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><div class="about text">About</div></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.facebook.com/londonsmom09" id="fb"><i class="fa fa-facebook" aria-hidden="true"></i><div class="fb text">Facebook</div></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" id="book"><i class="fa fa-book" aria-hidden="true"></i><div class="bk text">Book</div></a>
+				</li>	
+			</ul>
+						<!--<h1><em>MADE <i class="fa fa-gratipay" aria-hidden="true" id="heart"></i></em> by Jade</h1>-->
+						<h1><em>Beatz</em> by London Lavish</h1>
+		</div>
+		
+			<div class="section">About Me</div>
+	
+
+			<div class="section">
+					<div class="slide"><img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/22154245_10155440061738429_2502998731368821499_n.jpg?oh=a0f3115eb9b42b38345091c7103cce59&oe=5A82A873" alt="laurie1"></div>
+					<div class="slide"><img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/22090165_10155436232128429_5222189922564337950_n.jpg?oh=301293a8d7d5b35b5e2b484cda33490d&oe=5A7DAC20" alt="laurie2"></div>
+					<div class="slide"><img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/21768148_10155422862413429_2889333004653247362_n.jpg?oh=692f8aa215b08ee6fdd4223a64474dea&oe=5A83D1C8" alt="laurie3"></div>
+			</div>
+				<div class="section">
+				<div class="container">Book</div>
+		</div>
+	</div>
+
+	
+
+</body>
+</html>
